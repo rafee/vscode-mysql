@@ -1,3 +1,5 @@
+CREATE DATABASE [IF NOT EXISTS] local;
+
 Use Problem175;
 
 Create table Person (PersonId int, FirstName varchar(255), LastName varchar(255))
