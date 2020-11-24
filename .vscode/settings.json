@@ -9,7 +9,7 @@
             "port": 3306,
             "driver": "MySQL",
             "name": "MySQl",
-            "database": "local",
+            // "database": "local",
             "username": "root",
             "password": "password"
         }

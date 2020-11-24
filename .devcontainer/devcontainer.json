@@ -1,7 +1,7 @@
 // If you want to run as a non-root user in the container, see .devcontainer/docker-compose.yml.
 // You can also update the VARIANT arg in docker-compose.yml to pick a Python version: 3, 3.8, 3.7, 3.6 
 {
-	"name": "Ubuntu 20.04 and MySQL",
+	"name": "Ubuntu-MySQL",
 	"dockerComposeFile": "docker-compose.yml",
 	"service": "app",
 	"workspaceFolder": "/workspace",
@@ -12,6 +12,10 @@
 	// Add the IDs of extensions you want installed when the container is created.
 	"extensions": [
 		"mtxr.sqltools",
+		"mtxr.sqltools-driver-mysql",
+	],
+	"forwardPorts": [
+		8080
 	],
 	// Uncomment the next line if you want start specific services in your Docker Compose config.
 	// "runServices": [],
